@@ -1,62 +1,75 @@
 # Fraternate
 
+https://github.com/coding-to-music/Fraternate
+
+https://my-fraternate.herokuapp.com/
+
+By Jonathan jondo89 https://github.com/jondo89
+
+https://github.com/jondo89/Fraternate
+
+https://fraternate.herokuapp.com/
+
 ## What is Fraternate?
 
 Fraternate is a standalone copy of the GitHub user subscription system. Fraternate is open-source, start by deploying as a boilerplate directly off GitHub , or use the npm module as a standalone plugin. Download the Full stack boilerplate using Node.js Mongodb Express.js Handlebars.js from Github.
 
-### [VIEW THE DEMO - FRATERNATE](https://fraternate.herokuapp.com/) 
+### [VIEW THE DEMO - FRATERNATE](https://fraternate.herokuapp.com/)
 
 ## Installation
-* Download the github file.
-* Unzip into a new directory.
-* Using your preferred command line editor , run NPM INSTALL.
-* create your .env file in the root of the working folder structure (Copy the details below as the framework to get the site working).
-* Add all of the relevant keys , passwords , usernames etc to the .env file. This is not configured to be user friendly , and will likely require a bit of messing around. 
-* Run nodemon on the command prompt to start the server. 
-* You will need the following items configured and functioning:
-  * Mongodb installed and running on the localhost.
-  * NPM installed and running.
-  * Node.js installed and running.
-* open the localhost i.e http://localhost:2000/
+
+- Download the github file.
+- Unzip into a new directory.
+- Using your preferred command line editor , run NPM INSTALL.
+- create your .env file in the root of the working folder structure (Copy the details below as the framework to get the site working).
+- Add all of the relevant keys , passwords , usernames etc to the .env file. This is not configured to be user friendly , and will likely require a bit of messing around.
+- Run nodemon on the command prompt to start the server.
+- You will need the following items configured and functioning:
+  - Mongodb installed and running on the localhost.
+  - NPM installed and running.
+  - Node.js installed and running.
+- open the localhost i.e http://localhost:2000/
 
 ## Required Empty Database Configuration
-Limited time has been spent on zero data configuration, and this is a work in progress. If you do fork this and try, let me know where you get stuck  , and Ill push changes to suit.
+
+Limited time has been spent on zero data configuration, and this is a work in progress. If you do fork this and try, let me know where you get stuck , and Ill push changes to suit.
 
 ## Features
 
 #### User Control
 
-* Sign in / Login
-* Signup
-* Oauth GitHub / Google
-* Unique Usernames
-* Recaptcha
-* Forgot Password
-* Delete Account
-* Public Profile
-* Profile Pictures
-* Email Notifications
+- Sign in / Login
+- Signup
+- Oauth GitHub / Google
+- Unique Usernames
+- Recaptcha
+- Forgot Password
+- Delete Account
+- Public Profile
+- Profile Pictures
+- Email Notifications
 
 #### Organization Control
 
-* Create Organization
-* Delete Organization
-* Invite to Organization
-* Request Invite to Organization
-* Edit Memberships
-* Unique Organization Names
-* Public Organization Profile
+- Create Organization
+- Delete Organization
+- Invite to Organization
+- Request Invite to Organization
+- Edit Memberships
+- Unique Organization Names
+- Public Organization Profile
 
 #### Issue Tracking
 
-* Stand alone issue/comment system
-* Grouped issue/comment system
+- Stand alone issue/comment system
+- Grouped issue/comment system
 
 ### The `.env` File
 
 All of the magic on your localhost is managed by the `.env` file, here you would add your SMTP host setting, ReCaptcha keys etc. Some example values are shown below.
 
 When installation is done on Heroku, the keys should be added to the Settings tab, in the "reveal config variable" area.
+
 ```
 MAILGUN_USERNAME=''
 MAILGUN_PASSWORD=''

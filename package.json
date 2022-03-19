@@ -104,7 +104,7 @@
   },
   "scripts": {
     "test:watch": "jest ",
-    "start": "node index.js"
+    "mystart": "node index.js"
   },
   "author": "",
   "license": "ISC"
