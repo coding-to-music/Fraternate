@@ -103,7 +103,8 @@
     "jest-editor-support": "^28.2.0"
   },
   "scripts": {
-    "test:watch": "jest "
+    "test:watch": "jest ",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC"
